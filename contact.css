@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    background-image:url(Poster\ BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.reach {
+    background-image: linear-gradient(to right, rgb(194, 7, 211) , rgb(4, 189, 235)); ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    color: white;
+    border-radius: 200px;
+    height: 500px;
+    align-content: center;
+    width: 600px;
+}
+.reach a{
+    text-decoration: none;
+    color:white;
+}
+.reach a:hover{
+    text-decoration: none;
+    color:rgb(4, 4, 139);
+}
+
+
+
+ .reach h2 {
+    color: white;
+}
+ .reach h2:hover{
+    color:rgb(4, 4, 139);
+    transform: rotate(360deg);
+    
+}
+
+.reach p {
+    font-size: 18px;
+    color: white ;
+    margin: 10px 0;
+}
+.reach p:hover{
+    color:rgb(4, 4, 139);
+    transform: scale(1.2);
+
+}
+.reach .para{
+    font-size: 10px;
+}
+h4{
+    font-weight: 300;
+}
+h5{
+    color:rgb(104, 21, 199);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+h5 :hover{
+    color : white;
+    
+}
+h1{
+    font-size: 10px;
+    font-weight: 100;
+}
+h6{
+    font-weight: 300;
+    font-size: 10px;
+}
+
+i {
+    margin-right: 8px;
+    color:hsl(268, 95%, 23%)
+    
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.8rem; /* Smaller font on mobile devices */
+        padding: 10px 5px; /* Reduce padding on mobile for better spacing */
+    }
+    body{
+        background-image: url("Untitled\ design.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .reach{
+        width:25%;
+        height:70%;
+    }
+
+}
+@media (max-width: 600px) {
+    .reach {
+        width: 95%;
+        padding: 15px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .reach {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .reach {
+        width: 50%;
+    }
+}
